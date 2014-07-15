@@ -1,7 +1,7 @@
 {
-	"name": "Boatus.org quiz aid",
+	"name": "Boatus.org quiz cheater",
 	"version": "0.1",
-	"description": "Assists with taking boatus.org quizzes",
+	"description": "Cheat on boatus.org quizzes",
 	"permissions": [
 		"https://elearning.boatus.org/launch/lesson.asp"
 	],
