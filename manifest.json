@@ -1,0 +1,19 @@
+{
+	"name": "Boatus.org quiz aid",
+	"version": "0.1",
+	"description": "Assists with taking boatus.org quizzes",
+	"permissions": [
+		"https://elearning.boatus.org/launch/lesson.asp"
+	],
+	"content_scripts": [{
+		"matches": [
+			"https://elearning.boatus.org/launch/lesson.asp"
+		],
+		"js": [
+			"Source/enhancer.js"
+		],
+		"css": [],
+		"run_at": "document_idle"
+	}],
+	"manifest_version": 2
+}
